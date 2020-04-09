@@ -5,7 +5,10 @@ end
 def create_an_array
   ["a","b","c","d"]
 end
+def retrieve_element_from_index(array, index)
+  a=array[index]
 
+end
 def add_element_to_end_of_array(array, element)
   array.push(element)
 end
